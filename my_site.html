@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Personal website:STEPHEN-MULWA</title>
+    <link rel="stylesheet" type="text/css" href="my_site.css">
+</head>
+<body>
+	<!----x---start-of-nav-bar----x----->
+	<div class="main-content" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(assets/Wallpaper.gif); height: 90vh;">
+    <!--------<div id="navigation">
+      <nav>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">About-me</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Home</a></li>
+      </nav>
+    </div>---->
+		
+    <center>
+      <h2>STEPHEN MWAKA MULWA</h2>
+    </center>
+  </div>
+	<!----x---End-of-nav-bar----x----->
+
+    <!----------*-----start------of-----Autoplay navigation-------------*---------->
+    <div id="gallery">
+    	<h2>---GALLERY---</h2>
+    </div>
+    <div class="divider"></div>
+     <div id="content"><br>
+            <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="pics/1.jpg" style="height: 100%" id="slideimage">
+  <div class="text"><h2><b>Am stephen mulwa</b></h2></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="pics/5.jpg" style="height: 100%" id="slideimage">
+  
+
+
+</div>
+<div class="mySlides fade">
+  <img src="pics/3.jpg" style="height: 100%" id="slideimage">
+  
+
+
+</div>
+<div class="mySlides fade">
+  <img src="pics/6.jpg" style="height:100%" id="slideimage">
+ 
+<div class="text"><h2><b>Still steveh😜</b></h2></div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<br>
+
+ </div>
+</div>
+<br>
+
+<!--------inline js code-------------->
+    <script type="text/javascript" >
+        var slideIndex = 0;
+        showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+    </script>
+    <!---------#-----------------End---- of --autoplay---navigation------------------#-------->
+<!-------------------*--------body start-------*------------------->
+    <div class="Div-main">
+        <div class="div-left"><br><br><br>
+        <b><u><h1>PERSONAL DETAILS</h1></u></b><br><br>
+        <label><b style="color: blue">FullName:</b></label>MULWA STEPHEN MWAKA<br><br>
+        
+        <label><b style="color: blue">Place Of Birth:</b> </label>MWEA,EMBU COUNTY<br><br>
+        <label><b style="color: blue">Profession:</b> </label>Am a Student in Kibabii University taking Information Technology<br><br>
+        <label><b style="color: blue">Birthday Date:</b> </label>14th june, 1999<br><br>
+    </div>
+    <div class="div-right"><br><br><br><br><br>
+      <u><h1><b>LEVEL OF EDUCATION</b></h1></u><br><br>
+      <p> <b>Am a student in KIBABII UNIVERSITY taking Bachelor<br> of science in Information Technology</b></p>
+    </div>
+    </div>
+    <span class="dot-big"></span>
+    <!----------------#-----End of body-------------------#----------------------->
+
+        <!-----------x-----------------------start of main div-----------------------x--------------->
+    <div class="intro">
+      <div id="div1">
+        <u><p><h2>PORTFOLIO:</h2></p></u>
+        <h2><marquee><p style="color: yellow">Check out on my projects on github</p></marquee></h2>
+        <a href="https://github.com/mulwasteveh"><i>Click_here_to_see_my_projects</i></a>
+
+
+      </div>
+      <div id="div2">
+        <u><p><h2>SKILLS:</h2></p></u>
+        <p><h2><b style="color: yellow">UI/UX development:</b></h2>HTML, CSS, JavaScript</p><br>
+        <p><h2><b style="color: yellow">Backened development:</b></h2>Python, SQL, MY-SQL</p>
+      </div>
+      
+    </div>
+
+    <!-----------x-----------------------end of main div-----------------------x--------------->
+    
+    <!--------------*----------------footer page----------------*--------->
+    <center>
+        <div class="footer">
+            <div class="findMe">
+                <label><h2>CONTACT ME VIA:</h2></label><br><br>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="pics/email strong icon.png" width="30px"> GMAIL</a><br><br>
+                <a href="#"><img src="pics/whats app icon.png" width="30px" height="30px"> WHATSAPP</a><br><br>
+                <a href="https://twitter.com/home"><img src="pics/twitter icon.jpg" width="30px" height="30px"> TWITTER</a>
+            </div>
+            <div class="divider"></div>
+            <div class="yooh">
+                <label><h2>FIND ME ON:</h2></label><br><br>
+                <a href="tel:123-456-789"071-574-0546><img src="pics/phone icon.png" width="30px" height="30px"> call</a>
+                <a href="https://twitter.com/home"><img src="pics/twitter icon.jpg" width="30px" height="30px"> Twitter</a>
+                <a href="https://www.instagram.com/"><img src="pics/instagram icon.jpg" width="30px" height="30px"> Instagram</a>
+                <a href="#"><img src="pics/youtube icon.jpg" width="30px" height="30px">YOUTUBE</a>
+                <a href="https://facebook.com"><img src="pics/facebook icon.png" width="30px" height="30px">Facebook</a>
+            </div>
+        </div>
+    </center>
+
+    <!-------------#---------------End of the footer---------------------#------------->
+
+
+</body>
+</html>
