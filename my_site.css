@@ -34,13 +34,13 @@ color: dodgerblue;
   border-bottom: 5px solid #fff;
 }
 /*-------x-----End-of-navigation------x------*/
-#gallery{
+.gallery{
   height: 50px;
   background-color: yellow;
   color: dodgerblue;
   text-align: center;
 }
-#gallery h2{
+.gallery h2{
   border-bottom: 5px solid blue;
   
 }
